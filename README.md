@@ -8,15 +8,15 @@ The purpose of this analysis is to use SQL to assess the retirement-eligbile emo
 ## Results
 
 - The data in retirement_titles.csv suggests that the oldest start dates for retirement eligible employees are actually both Managers who started onm the same date : Jan 1, 1985. 
-![Retirement Titles]()
+![Retirement Titles](https://github.com/MoKmo176/Pewlett_Hackard-Analysis/blob/6af2fb0b00f4400009737e3d29b7fed0937878db/README%20Files/Screenshot%202021-10-10%20at%207.18.58%20PM.png)
 - The retiring titles count shows a disporportionate amount of Senior level staff to Mid & Entry level. A plan to ensure a smooth transition is most likely. 
-![Retiring Titles]()
+![Retiring Titles](https://github.com/MoKmo176/Pewlett_Hackard-Analysis/blob/6af2fb0b00f4400009737e3d29b7fed0937878db/README%20Files/Screenshot%202021-10-10%20at%205.21.50%20PM.png)
 
 - All the duplicate employee numbers in unique_titles.csv require a DISTINCT ON command to reference the most recent status of an eligible employee's title. 
 
 - There are 1,549 eligible employees for Mentorship, some are born in 1965 and have only worked for the company since 2002.
 
-![Mentorship Eligibility]()
+![Mentorship Eligibility](https://github.com/MoKmo176/Pewlett_Hackard-Analysis/blob/6af2fb0b00f4400009737e3d29b7fed0937878db/README%20Files/Screenshot%202021-10-10%20at%207.16.16%20PM.png)
 
 ## Analysis Summary
 
